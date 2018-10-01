@@ -1,5 +1,7 @@
 .navbar {
-  background: black !important; }
+  background: black !important;
+  position: sticky;
+  top: 0; }
   .navbar a {
     color: white; }
 
@@ -8,6 +10,11 @@ body {
   justify-content: center;
   align-content: center;
   flex-direction: column; }
+  body footer a {
+    display: inline;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #0a233d;

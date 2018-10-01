@@ -4,6 +4,15 @@ body {
   align-content: center;
   flex-direction: column;
 
+  footer{
+    a {
+      display: inline;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+    }
+  }
+
 }
 
 h1, h2, h3, h4, h5, h6 {
