@@ -7,6 +7,7 @@
 <h3>By <a href="/author/<%= @art.artist_id %>"><%= @art.artist %></a></h3>
 <h3><%= @art.year %></h3>
 <h5><%= @art.description %></h5>
+<h5><%= @art.period %></h5>
 <h5>Displayed at  <%= @art.displayed %></h5>
 
 <form class="" action="/art/<%= @art.id %>" method="post">
