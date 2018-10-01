@@ -1,0 +1,25 @@
+form {
+
+  width: 500px;
+
+  .form-group {
+    font-weight: 100;
+    letter-spacing: 10px;
+    text-align: center;
+    font-family: sans-serif;
+
+    .form-control{
+      box-shadow: none;
+      border-radius: 0;
+      border: none;
+      border-bottom: 1px solid black;
+      padding: 10px 10px;
+
+      &::placeholder{
+        letter-spacing: 5px;
+        text-align: center;
+        font-family: sans-serif;
+      }
+    }
+  }
+}

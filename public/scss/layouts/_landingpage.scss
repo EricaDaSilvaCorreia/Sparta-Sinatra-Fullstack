@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color : $color1;
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+  align-self: center;
+  display: block;
+  margin: auto;
+  justify-content: center;
+}
