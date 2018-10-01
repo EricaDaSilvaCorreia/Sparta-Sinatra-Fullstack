@@ -1,0 +1,14 @@
+<h1>P R E T E N T I O U S   A R T  L I S T</h1>
+
+<% @art.each do |art| %>
+  <div class="card-group" width="300px" height="500px">
+    <div class="card">
+      <img class="card-img-top" src="<%= art.img %>" alt="" style="display:block;" width="25%" height="25%">
+      <div class="card-body">
+        <h4 class="card-title"><a href="/art/<%= art.id %>"><%= art.title %></a></h5>
+        <h5 class="card-title">Year : <%= art.year %></h5>
+      </div>
+    </div>
+  </div>
+
+<% end %>

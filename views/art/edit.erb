@@ -1,0 +1,38 @@
+<form action="/art/<%= @art.id %>" method="POST">
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Image</label>
+    <input type="text" class="form-control" placeholder="Image" name="img" value="<%= @art.img %>">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputPassword1">Title</label>
+    <input type="text" class="form-control" placeholder="Title" name="title" value="<%= @art.title %>">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputPassword1">Year</label>
+    <input type="text" class="form-control" placeholder="Year" name="year" value="<%= @art.year %>">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputPassword1">Period</label>
+    <input type="text" class="form-control" placeholder="Period" name="period" value="<%= @art.period %>">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputPassword1">Description</label>
+    <input type="text" class="form-control" placeholder="Description" name="description" value="<%= @art.description %>">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputPassword1">Displayed</label>
+    <input type="text" class="form-control" placeholder="Displayed" name="displayed" value="<%= @art.displayed %>">
+  </div>
+
+  <button type="submit" class="btn btn-default" value="PUT">Submit</button>
+
+  <% if (@art.id != '') %>
+    <input type="hidden" name="_method" value="PUT">
+  <% end %>
+</form>
