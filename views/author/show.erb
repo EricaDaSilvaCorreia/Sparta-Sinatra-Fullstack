@@ -1,0 +1,12 @@
+<small><a href="/author">Back</a></small>
+<small><a href="/author/<%= @author.id %>/edit">Edit</a></small>
+<h1><%= @author.first_name %></h1>
+<h2><%= @author.last_name %></h3>
+<h5>nationality <%= @author.nationality %></h5>
+<h5>Date of Birth  <%= @author.dob %></h5>
+<h5>Art Periods  <%= @author.periods %></h5>
+
+<form class="" action="/author/<%= @author.id %>" method="post">
+  <input type="hidden" name="_method" value="DELETE">
+  <input type="submit" value="Delete" style="background:none;border:none;color:red">
+</form>

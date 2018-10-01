@@ -1,0 +1,16 @@
+<small><a href="/art">Back</a></small>
+<small><a href="/art/<%= @art.id %>/edit">Edit</a></small>
+
+<h1><%= @art.title %></h1>
+<img src="<%= @art.img %>" alt="" width="30%" height="30%">
+
+<h3>By <a href="/author/<%= @art.artist_id %>"><%= @art.artist %></a></h3>
+<h3><%= @art.year %></h3>
+<h5><%= @art.description %></h5>
+<h5><%= @art.period %></h5>
+<h5>Displayed at  <%= @art.displayed %></h5>
+
+<form class="" action="/art/<%= @art.id %>" method="post">
+  <input type="hidden" name="_method" value="DELETE">
+  <input type="submit" value="Delete" style="background:none;border:none;color:red">
+</form>

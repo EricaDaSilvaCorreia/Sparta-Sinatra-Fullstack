@@ -1,0 +1,8 @@
+<h1>PRETENTIOUS   ARTISTS  LIST </h1>
+
+<% @author.each do |author| %>
+
+  <h4><a href="/author/<%= author.id %>"><%= author.first_name %> <%= author.last_name %></a></h5>
+  <h5>Nationality : <%= author.nationality %></h5>
+
+<% end %>
