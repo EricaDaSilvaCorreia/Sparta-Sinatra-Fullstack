@@ -35,16 +35,27 @@ Combine everything you've learned  create a well designed full-stack website wit
 ##### how to seed the data :
 
 
-1. go to the github page [**https://github.com/EricaDaSilvaCorreia**](https://github.com/EricaDaSilvaCorreia)
+1. Open in atom (or editor of choice)
+2. Open a terminal in the editor
+3. Enter : psql -d artworks -f seed.sql
 
 -----
 
 ##### Challenges :
 
+For this assignment there weren't many issues. I had a bit of a difficult time with sass but I realised in the end I wasn't calling the individual files in the main.scss.
+Other than that, I just had a bit of difficulty with my time keeping this weekend due to sickness. I'm sure if I had spent time on it I would've been able to produce something much better than what I have now, will definetly do it again.
+
+
 
 -----
 
 ##### Take-Aways :
+
+All in all, I'm happy that I get the concept. I did this one from scratch since I wanted to make sure I understood everything and how it all worked together. 
+I just wish I had spent more time on it but I'll keep working on it and on the time management skills.
+
+I give it a 5/10. Could do better.
 
 -----
 
